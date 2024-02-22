@@ -185,14 +185,18 @@ body{
     .navbar-link:is(:hover, :focus) {
         background-color: var(--medium-turquoise);
     }
-    .hero{
-        background-color: var(--eerie-black-1);
-        color: var(--white);
-        min-height: 700px;
-        padding-block: 120px 60px;
-        display: grid;
-        align-items: center;
-    }
+    .hero {
+      background-color: var(--eerie-black-1);
+      color: var(--white);
+      height: 100vh; /* Set the height to 100% of the viewport height */
+      padding-block: 120px 60px;
+      width: 100%;
+      display: grid;
+      align-items: center;
+      background-size: cover; /* Ensure the background image covers the entire element */
+      background-position: center; /* Center the background image */
+  }
+  
     .section-subtitle{
         color: var(--color, var(--medium-turquoise));
         font-size: var(--fs, var(--fs-6));
@@ -956,7 +960,7 @@ gap: 30px; }
   .navbar > .logo,
   .navbar-link > ion-icon { display: none; }
 
-  .header { padding-block: 25px; }
+  .header { padding-block: 1px; }
 
   .lang-switch {
     position: relative;
