@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Memebership form</title>
+        <link rel="stylesheet" href="css/membership.css">
+        
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h2>MEMBERSHIP FORM</h2>
+            </div>
+            <form class="form">
+                <div class="form-control">
+                    <label for="fullname" name="fullname">Fullname</label> 
+                    <input id="fullname" type="text" name="fullname" /> <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <label for="username" name="username">Username</label> 
+                    <input id="username" type="text" name="username" /> <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <label>Gender</label> 
+                    <select>
+                        <option value="">select</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                     <small>Error Message</small>
+                </div>
+
+                <div class="form-control">
+                    <label for="email" name="email">Email</label> 
+                    <input id="email" type="text" placeholder="enter valid email" name="email" required /> <small>Error Message</small>
+                </div>
+                <div class="form-control">
+                    <label for="pwd" name="password">Password</label> 
+                    <input id="pwd" type="password" name="password"  /> <small>Error Messsage</small>
+                </div>
+
+<div class="form-control">
+                    <label for="conpwd" name="conpwd">Confirm Password</label> 
+                    <input id="conpwd" type="password" name="conpwd" /> <small>Error Message</small>
+                </div>
+               
+                <div class="form-control">
+                    <label for="country" name="country">Country</label> 
+                    <input id="country" type="text" name="country" /> <small>Error Message    </small>
+                </div>
+
+                <div class="form-control">
+                    <label for="poscode" name="poscode">Postal Code</label> 
+                    <input id="poscode" type="text" name="poscode" /> <small>Error Message</small>
+                </div>
+                <button>REGISTER</button>
+            </form>
+        </div>
+              
+
+       <script src="register.js"></script> 
+    </body>
+</html>
