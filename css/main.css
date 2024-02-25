@@ -80,7 +80,7 @@ body{
     left: 0;
     width: 100%;
     background-color: transparent;
-    padding-block: 18px;
+    padding-block: 14px;
     z-index: 4;
 } 
 .header::after {
@@ -95,7 +95,7 @@ body{
     
     }
     .header.active {
-        background-color: var(--eerie-black-1);
+        background-color: var(--eerie-black-3);
         box-shadow: 0 0 10px hsla(0, 0%, 0%, 0.8);
     }
     .header .container{
@@ -124,7 +124,7 @@ body{
         top: 100%;
         left: 0;
         width: 100%;
-        height: 100%;
+        height: 70%;
         outline: 1px solid white;
         display: flex;
         flex-direction: column;
@@ -177,6 +177,7 @@ body{
         display: flex;
         justify-content:space-between;
         align-items: center;
+        text-decoration: none;
         padding-inline: 10px 15px;
         padding-block: 8px;
         transition: var(--transition-1);
@@ -329,15 +330,24 @@ line-height: 2;
     left: 100%;
     z-index: -1;
 }
+
 .deco-img{
     position: absolute;
     top: -40px;
     left: 0;
     z-index: -1;
 }
+img{
+  object-fit: cover;
+  object-position: center;
+}
 .about-img{
-    max-width: max-content;
+    
     margin-block-end: 30px;
+    height: 600px;
+}
+.tab-content{
+  margin-bottom: 64px;
 }
 .tab-nav{
     display: flex;
@@ -564,8 +574,10 @@ gap: 30px; }
  */
 
 .testi {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .testi-content { padding-inline: 30px 50px; }
@@ -626,9 +638,9 @@ gap: 30px; }
   color: var(--white);
   font-size: 5rem;
   position: absolute;
-  top: 50%;
+  top: -1000%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  
   opacity: 0;
   transition: var(--transition-2);
 }
@@ -909,7 +921,7 @@ gap: 30px; }
    */
 
   .hero {
-    background-image: url("../assets/images/bck2.jpg");
+    background-image: url("../assets/images/blck1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
@@ -1159,13 +1171,29 @@ column-gap: 30px;
   
 
 
-  /**
-   * FOOTER
-   */
 
-  .footer .container {
-    margin-inline: 30px;
-    width: auto;
-  }
+  .footer-brand {
+	  grid-column: auto;
+	  padding-inline-end: 100px;
+
+
+	}
+	.footer h5{
+		
+			
+			
+		
+			height: 50px;
+	
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: black;
+			flex-direction: column;
+		}
+		
+  
+
+
 
 }

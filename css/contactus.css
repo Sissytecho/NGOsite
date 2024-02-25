@@ -3,7 +3,7 @@
 	/**
 	 * colors
 	 */
-   
+     --pistachio_50: hsla(86, 45%, 54%, 0.5);
      --medium-turquoise: hsl(172, 48%, 59%);
 	--eerie-black_80: hsla(225, 9%, 9%, 0.8);
 	--eerie-black_60: hsla(225, 9%, 9%, 0.6);
@@ -53,7 +53,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-image: url('../assets/images/bck3.jpg');
+        background-color: var(--pistachio_50);
         background-size: cover;
         background-position: center;
         position: relative;
@@ -66,7 +66,7 @@
         left: 0;
         height: 100%;
         width: 100%;
-        background-color: rgba(0, 0, 0, 0.6);
+        background-color: rgba(0, 0, 0, 0.5);
     }
     section{
         position: relative;
@@ -136,9 +136,11 @@
     background-color: #fff;
     padding: 40px;
     width: 45%;
+    
     padding-bottom: 20px;
-    padding-top: 20px;
+    padding-top: 20px;  
 }
+
 .contact-form h2{
     font-weight: bold;
     font-size: 2em;
@@ -209,8 +211,20 @@
         .contact-info{
             margin-bottom: 40px;
             width: 100%;
+            
         }
-        .contact-form{
-            width: 100%;
+    }
+        
+        @media(min-width:700px){
+            .contact-form{
+                background-color: #fff;
+                padding: 40px;
+                
+                height: 68%;
+                padding-bottom: 20px;
+                padding-top: 20px;
+                position: absolute;
+                top: 35%;
+                right: 10%;
         }
     }
