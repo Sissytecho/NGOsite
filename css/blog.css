@@ -395,7 +395,11 @@
 	text-decoration: none;
   }
   
-  
+  .navbar-list {
+	display: none;
+	gap: 8px;
+	font-family: var(--ff-roboto);
+  }
   
   /*-----------------------------------*\
 	#HEADER
