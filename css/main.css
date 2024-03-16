@@ -118,8 +118,11 @@ body{
     .nav-open-btn{
         background-color: var(--medium-turquoise);
         font-size: 1.5rem;
+        color: rgb(239, 237, 237);
     
     }
+
+  
     .navbar{
         position: fixed;
         background-color: black;
@@ -191,7 +194,7 @@ body{
     .hero{
         background-color: var(--eerie-black-1);
         color: var(--white);
-        min-height: 700px;
+        min-height: 500px;
         padding-block: 120px 60px;
         display: grid;
         align-items: center;
@@ -342,6 +345,8 @@ line-height: 2;
 img{
   object-fit: cover;
   object-position: center;
+  height: 80px;
+  width: 80px;
   
 }
 .about-img{
@@ -930,7 +935,7 @@ gap: 30px; }
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
-    min-height: 780px;
+    min-height: 500px;
 
   }
   
