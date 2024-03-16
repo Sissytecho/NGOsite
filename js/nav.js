@@ -6,7 +6,6 @@ for (let i =0; i < navElemArr.length; i++) {
     navElemArr[i].addEventListener('click', function (){
         navbar.classList.toggle("active");
     });
-
     
 }
 const header = document.querySelector("[data-header]");

@@ -58,7 +58,7 @@
 			scroll-behavior: smooth;
 		}
 		body{
-			background-color: var(--white-60);
+			background-color: var(--pistachio);
 			font-size: 1.6rem;
 			line-height: 1.8;
 			
@@ -383,23 +383,9 @@
 	gap: 30px;
   }
   
-  
 
+ 
 
-  .navbar-item{
-  
-	display: block;
-	color: black;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-  }
-  
-  .navbar-list {
-	display: none;
-	gap: 8px;
-	font-family: var(--ff-roboto);
-  }
   
   /*-----------------------------------*\
 	#HEADER
@@ -1028,7 +1014,7 @@
 	  --fs-4: 2.4rem;
   
 	}
-  
+    }
   
   
 	/**
@@ -1072,18 +1058,6 @@
 	.recent .btn { margin-block-start: 70px; }
   
   
-  
-	
-  
-	.footer-top { grid-template-columns: 1fr 0.4fr 0.4fr 0.4fr 0.4fr; 
-	background-color:blue;
-	color: beige;
-
-
-	}
-}
-	
-  
 	.footer-brand {
 	  grid-column: auto;
 	  padding-inline-end: 100px;
@@ -1091,9 +1065,6 @@
 
 	}
 	.footer h5{
-		
-			
-			
 		
 			height: 50px;
 	
