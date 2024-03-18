@@ -107,6 +107,7 @@ body{
     transform: translate(0,-50%);
     font-family: system-ui;
     display: none;
+    
 }
 .slide .item:nth-child(2) .content{
     display: block;
@@ -161,16 +162,55 @@ to{
     border: 1px solid #000;
     transition: 0.3s;
 }
-@media screen and (max-width:768px){
+
+@media screen and (min-width: 475px) {
+   
+    .About-us h1{
+        font-size: 25px;
+  
+      }
+      .About-us p{
+          font-size: 13px;
+      }
+     .content .name{
+      font-size: 20px;
+     }
+
     .container3{
         
         position: absolute;
-        right: 50px;
+        right: 55px;
         
     }
     .slide .item:nth-child(2) .content{
         display: inline;
-        left: 250px;
+        left: 270px;
     }
- }
-    
+ 
+}
+
+@media screen and (min-width: 750px) {
+   
+    .About-us h1{
+        font-size: 35px;
+  
+      }
+      .About-us p{
+          font-size: 23px;
+      }
+     .content .name{
+      font-size: 30px;
+     }
+
+    .container3{
+        
+        position: absolute;
+        right: 55px;
+        
+    }
+    .slide .item:nth-child(2) .content{
+        display: inline;
+        left: 270px;
+    }
+ 
+}

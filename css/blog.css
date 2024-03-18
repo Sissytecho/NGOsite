@@ -502,7 +502,7 @@
   .home-articles {
 	padding: 18px;
 	background-color: rgba(238, 222, 222, 0.5);
-	margin-top: 23px;
+	
 	position: relative !important;
   }
   
@@ -610,17 +610,28 @@
 	 * REUSED STYLE
 	 */
   
+	 
+	 }
 	 .box{
 		width: -100%
 	 };
+	 .home-article-content{
+		align-items: center;
+		padding: 15px;
+		font-size: 12px;
+	 }
 	 
-	.section { margin-inline: 30px; }
-  
-	.newsletter-form,
-	.btn { --fs-6: 2.2rem; }
+	 .section { margin-inline: 70px;
+	 }
+	.newsletter-form
+	 { --fs-6: 1.5rem; }
+
+	 .btn{
+	    --fs-6: 0.9rem;
+	 }
   
 	.newsletter-form .email-field {
-	  font-size: var(--fs-6);
+	  font-size: 10px;
 	  padding-inline-end: 170px;
 	}
   
@@ -638,7 +649,7 @@
 	.scrollbar-item { min-width: 40%; }
   
 	.grid-list {
-	  grid-template-columns: 1fr 1fr;
+	  
 	  column-gap: 10px;
 	}
   
@@ -674,7 +685,7 @@
 	  margin-block-end: 20px;
 	}
   
-  }
+  
   
   
   
@@ -994,7 +1005,7 @@
   
   /**
    * responsive for large than 1200px screen
-   */
+   */ 
   
   @media (min-width: 1200px) {
   
